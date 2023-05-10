@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  /* global css start */
+  .container {
+    max-width: 130rem;
+    margin: 0 auto;
+  }
+  .btn {
+    padding: 1rem 3rem;
+    background-image: linear-gradient(180deg, #5690ff 0, #3271e6 100%);
+    border: .1rem solid blue;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    margin-top: -1rem;
+  }
+  .btn:hover{
+    background: linear-gradient(180deg,#B5AFFF 0,#9B94FC 100%);
+    box-shadow: 0 .6rem 2.4rem #766de880;
+  }
+
+  .bold-head{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .para{
+    font-size: 1.6rem;
+    text-align: center;
+    color: grey;
+  }
+  /* global css end */
+  /* header section start */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+  }
+  .logo {
+    display: inline-block;
+    width: 3.5rem;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .navbar-icon {
+    float: right;
+  }
+  .navbar {
+    display: flex;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 1.6rem;
+  }
+  .navbar ul li a {
+    padding: 2rem 0rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: grey;
+  }
+  .navbar li {
+    list-style: none;
+    font-size: 1.6rem;
+   
+  }
+  
+  .left-nav {
+    margin-left: 2.5rem;
+  }
+  .right-nav li a {
+    margin-top: 1rem;
+  }
+  .right-nav {
+    margin-left: 37.8rem;
+  }
+  .two-nav {
+    display: flex;
+    margin-top: 1rem;
+  }
+  /* sub-menu section */
+.sub-menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .sub-menu {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: white;
+    box-shadow: .1rem .1rem 1.8rem #bbaeae;
+    padding: .2rem;
+  }
+  .navbar ul li:hover .sub-menu {
+    display: block;
+  }
+  .sub-menu p img {
+    background-color: blue;
+    color: white;
+    border-radius: 20rem;
+    width: 15%;
+    position: relative;
+    top: .5rem;
+    margin-right: 1.2rem;
+  }
+  /* sub-header section start */
+.sub-header{
+  background-color: #3271e6;
+  padding: 1.2rem;
+}
+  .sub-header-box ul{
+    display: flex;
+    gap: 5.4rem;
+    width: 68%;
+    margin: auto;
+}
+.sub-header-triangle{
+  position: relative;
+}
+.triangle{
+  position: absolute;
+  top: -5.6rem;
+  left: 23.6rem;
+}
+.triangle i{
+  font-size: 4.6rem;
+    color: #3271e6;
+}
+  .sub-header-box ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    color: white;
+  }
+  /* website builder section start */
+  .website-builder{
+    background-image: url(https://static.rfstat.com/renderforest/images/v2/websiteHomeImages/hero_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .website-bulider-box{
+    display: flex;
+    padding: 10rem 1rem;
+  }
+  .about-website{
+    width: 30%;
+    padding: 2rem;
+  }
+  .website-video{
+    width: 70%;
+  }
+  .website-video iframe{
+    width: 100%;
+    height: 50rem;
+    border: 1.5rem solid lightblue;
+    border-radius: 5rem;
+}
+  .website-video{
+    border: 2rem solid white;
+    border-radius: 5rem;
+    box-shadow: 0.1rem 0.1rem 2rem #e1d7d7;
+}
+.about-website h1{
+  font-size: 4.3rem;
+  line-height: 6rem;
+  font-weight: bold;
+}
+.about-website h1 span{
+  color: blueviolet;
+}
+.about-website p{
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 6.5rem;
+  line-height: 3rem;
+  color: grey;
+}
+/* customize website section */
+.customize-website-box{
+  background-color: #EDFCFB;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.customize-website-box h5{
+  width: 60rem;
+  margin: auto;
+}
+.customize-website-box p{
+ text-align: center;
+ font-size: 2.2rem;
+  color:grey;
+}
+/* customize website section start */
+.customize-website-videos-box{
+  display: flex;
+  gap: 3rem;
+  justify-content:center;
+  margin-top: 3rem;
+}
+.customize-website-list ul{
+   display: flex;
+   justify-content: center;
+    gap: 5.5rem;
+    margin-top: 6.5rem;
+}
+.customize-website-list ul li{
+  list-style: none;
+  font-size: 1.6rem;
+  color: grey;
+}
+.customize-website-videos img{
+  width: 100%;
+  border-radius: 3rem;
+}
+.customize-website-videos {
+  width: 28%;
+}
+.customize-website-box .browse-me{
+  color: blue;
+  margin-top: 8rem;
+}
+.customise-website-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+/* pricing section start */
+.pricing{
+  background: url(https://static.rfstat.com/renderforest/images/v2/websiteHomeImages/pricing_back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 6rem;
+}
+.pricing .para{
+  margin-top: 1.2rem;
+}
+.pricing-card{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.pricing-box{
+  background-color: white;
+  padding: 2rem;
+}
+
+  
+  
